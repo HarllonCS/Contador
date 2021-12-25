@@ -1,3 +1,4 @@
+/* Configurações para o corpo da página */
 body {
     background-color: rgb(38, 151, 196);
     margin: 0px;
@@ -5,6 +6,7 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+/* Configurações para o cabeçalho */
 header {
     background-color: white;
     width: 400px;
@@ -15,6 +17,7 @@ header {
     font-size: 18pt;
 }
 
+/* Configurações para o conteúdo */
 section {
     background-color: white;
     margin: auto;
@@ -23,20 +26,23 @@ section {
     padding: 15px;
     border-radius: 10px;
     margin-bottom: 15px;
-    box-shadow: 12px 12px rgba(0, 0, 0, 0.253);
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.253);
 }
 
+/* Configurações das divs do <section> para dar margem abaixo */
 .cInicio, .cFinal, .cIncre {
     margin-bottom: 25px;
 }
 
+/* Configurações dos <inputs> */
 #iInicio, #iFinal, #iIncre {
     font-size: 12pt;
     border-radius: 5px;
     padding: 6px;
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.384);
 }
 
+/* Configuração do botão */
 .btn {
     display: block;
     margin: auto;
@@ -51,10 +57,12 @@ section {
     transition: .3s;
 }
 
+/* Animação do botão quando o mouse estiver encima */
 .btn:hover {
     background-color: rgba(38, 151, 196, 0.87);
 }
 
+/* Confugações do rodapé da página */
 footer {
     text-align: center;
     color: white;
